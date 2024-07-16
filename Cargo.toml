@@ -33,4 +33,4 @@ tar = "0.4"
 tempfile = "3"
 tokio = "1"
 tracing = "0.1"
-zip = {version = "2.1", path = "../zip2"}
+zip = {version = "2.1", git = "https://github.com/coasys/zip2.git", rev = "a6e30f1d6379e2818814ba9662ad565e43f26afe"}
